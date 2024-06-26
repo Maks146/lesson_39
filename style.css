@@ -1,0 +1,92 @@
+/* body {
+    margin: 0;
+    padding-top: 80px;
+    height: 300vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.page-header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    top: 0;
+    left: 0;
+    background-color: skyblue;
+    outline: solid black;
+}
+
+#providers,
+#operations,
+#Leadership {
+    margin-top: 700px;
+    min-height: 80px;
+    background-color: skyblue;
+    outline: solid black;
+    width: 100%;
+}
+html { scroll-behavior: smooth; -webkit-scroll-behavior: smooth }
+.arrow{
+    position: fixed;
+    left: 90%;
+    bottom: 10%;
+    transform: rotate(180deg);
+    background: rgba(255, 0, 0, 0.500);
+    border-radius: 50%;
+    padding: 6px;
+    cursor: pointer;
+    z-index: 10;
+} */
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+   }
+   
+   .menu-item {
+    position: relative;
+    margin-right: 15px;
+    outline: 2px solid tomato;
+   }
+   
+   .menu-item:hover .submenu {
+    display: block;
+   }
+   
+   .menu-item:hover .menu-link {
+    background-color: palevioletred;
+   }
+   
+   .menu-link {
+    display: block;
+   padding: 10px 20px;
+   text-decoration: none;
+   background-color: teal;
+   color: white;
+   }
+   
+   .submenu {
+   position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    list-style: none;
+   padding: 10px;
+    background-color: #ccc;
+    display: none;
+   }
+   
+   .submenu a {
+   text-decoration: none;
+   }
